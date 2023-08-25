@@ -1,0 +1,11 @@
+body {
+    background: #325a73;
+
+}
+.container-bg {
+  background-color: #16394c;
+  color: white;
+  border: 5px solid #5d8093;
+  border-radius: 10px;
+  
+}
