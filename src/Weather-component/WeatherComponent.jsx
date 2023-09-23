@@ -8,7 +8,7 @@ import moment from "moment";
 function WeatherComponent() {
   let WeatherApiKey =
     // "http://api.weatherapi.com/v1/forecast.json?key=30a9529e2c9b4034a6a12356232308&q=chennai&days=6&aqi=no&alerts=no";
-"https://api.npoint.io/e24597091b6a434e0a18";
+    "https://api.npoint.io/e24597091b6a434e0a18";
   const [ApiData, ApiSetData] = useState({});
   useEffect(() => {
     fetch(WeatherApiKey)
@@ -21,7 +21,7 @@ function WeatherComponent() {
       <Container className=" container-bg mt-5 ">
         <Row>
           <Col md={12}>
-            {" "}
+            <h1>My Weather App</h1>{" "}
             {location && (
               <h3 className="p-3">
                 {location.name} {"In"} {location.region}{" "}
