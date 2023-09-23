@@ -21,7 +21,7 @@ function WeatherComponent() {
       <Container className=" container-bg mt-5 ">
         <Row>
           <Col md={12}>
-            <h1>My Weather App</h1>{" "}
+            <h2>My Weather App</h2>{" "}
             {location && (
               <h3 className="p-3">
                 {location.name} {"In"} {location.region}{" "}
